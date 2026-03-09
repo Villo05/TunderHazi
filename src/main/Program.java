@@ -13,14 +13,16 @@ public class Program {
         System.out.println("Első harc:"); 
         t1.haboru(t2);
         
-        System.out.println("Harc után: ");
+        System.out.println("Harc utáni állapot: ");
         System.out.println(t1.allapot());
         System.out.println(t2.allapot());
         
+        System.out.println("Harc utáni állapot: ");
         System.out.println("Második harc:");
         t3.haboru(t3);
         System.out.println(t3.allapot());
 
+        System.out.println("Harc utáni állapot: ");
         System.out.println("Harmadik harc:");
         t4.haboru(t1);
         System.out.println(t4.allapot());
